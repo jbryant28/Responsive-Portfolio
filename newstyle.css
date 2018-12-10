@@ -1,0 +1,368 @@
+a {
+  float: right;
+}
+.h{
+  border-bottom-color: #30948D
+ 
+}
+
+.right{
+  float: right;
+  
+}
+footer {
+  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  
+  text-align: center;
+  
+  width: 100%;
+    /* padding: 20px; */
+    border-top-color: #30948D;
+    border-top: 5px;
+    clear: both;
+    background: slategrey;
+    
+    border-top-style: solid;
+    border-top-color: #30948D;
+}
+
+.divtwo {
+  margin-top: 40px; 
+}
+
+
+
+
+#img {
+  float: left;
+  image-orientation: from-image;
+  /* transform: rotate(90deg);  */
+  
+
+}
+
+sc {
+  height: 800px;
+  float: left;
+  overflow: auto;
+}
+p{
+  overflow: auto;
+  width: fit-content;
+  float: right;
+  width: 579px;
+  
+}
+#full {
+  width: 100%;
+  overflow: auto;
+  /* clear: both; */
+  color: black;
+  background: white;
+  display: block;
+  margin: auto;
+  height: 600px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-content: center;
+  vertical-align: middle;
+}
+
+
+.palign {
+  align-content: center;
+  text-align: center;
+  padding-left: 20%;
+}  
+  
+
+
+
+
+html {
+  display: block;
+}
+
+#left {
+  float: left;
+  /* width: 33.3%; */
+  
+  
+  
+}
+
+.media1 {
+
+  
+    background-color: white;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+}
+
+/* #hdr {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  color: rgb(22, 133, 126);
+  background: white;
+  display: block;
+  margin: 8px;
+  float: left;
+  
+} */
+
+#dv {
+  width: 75%;
+  align-content: center;
+}
+
+body {
+  margin: auto;
+  width: 75%;
+}
+
+#bd {
+  align-content: center; 
+
+}
+
+form { 
+  display: block;
+  margin-top: 0em;
+  align-content: center;
+}
+
+.grid {
+  height: 400px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 3em 3em 3em;
+}
+
+/* .rotated {
+  transform: rotate(90deg); /* Equal to rotateZ(45deg) */
+  
+/* } */ 
+
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+hy1{
+ border: 10px;
+ border-color: red;
+ margin-bottom: 10px;
+ padding: 10px;
+ background: transparent;
+ 
+}
+body {
+  background-image: url("w.jpg");
+}
+
+.b{
+  border-right-color: #30948D
+}
+
+c{
+  border-right-color: #30948D
+}
+d{
+  margin: 5px;
+}
+
+.divone {
+  background-color: #30948D;
+}
+
+@media screen and (max-width: 980px) {
+
+  #full {
+  
+    width: 50%;
+    height: 40%;
+    overflow: auto;
+    /* clear: both; */
+    color: black;
+    background: white;
+    display: block;
+    margin: auto;
+    float: left;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-content: left;
+    vertical-align: middle;
+    margin-left: 10%;
+    margin-right: 40%
+  
+}
+body {
+  background-color: black;
+  /* margin: auto; */
+ width: 100vw;
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+ body {
+  
+   /* margin: auto; */
+  width: 85vw;
+ }
+
+ #full {
+  
+    width: fit-content;
+    overflow: auto;
+    /* clear: both; */
+    color: black;
+    background: white;
+    display: block;
+    margin: auto;
+    
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-content: center;
+    vertical-align: middle;
+  
+}
+
+
+
+ /* #hdr {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  color: rgb(22, 133, 126);
+  background: black;
+  display: block;
+  margin: 8px;
+  float: left; 
+ }*/
+  
+
+ 
+ /* header {
+  background-color: black;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+} */
+ nav {
+   background-color: black;
+ }
+.media1 {
+
+  
+  background-color: white;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+
+}
+
+footer {
+  
+  width: 100vw;
+  /* padding: 20px; */
+  border-top-color: #30948D;
+  border-top: 5px;
+  clear: both;
+  background: slategrey;
+  padding-bottom: 40px;
+  border-top-style: solid;
+  border-top-color: #30948D;
+}
+
+
+
+/* Additional Screen Sizes */
+
+/* Width at 320px and below */
+@media screen and (max-width: 640px) {
+
+
+  body {
+  
+    /* margin: auto; */
+   width: 100vw;
+  }
+ 
+  #full {
+   
+     width: fit-content;
+     overflow: auto;
+     /* clear: both; */
+     color: black;
+     background: white;
+     display: block;
+     margin: auto;
+     
+     box-sizing: border-box;
+     flex-wrap: wrap;
+     align-content: center;
+     vertical-align: middle;
+     width: 100vw;
+   
+ }
+ 
+ 
+ 
+  /* #hdr {
+   width: 100%;
+   overflow: auto;
+   clear: both;
+   color: rgb(22, 133, 126);
+   background: black;
+   display: block;
+   margin: 8px;
+   float: left; 
+  }*/
+   
+ 
+  
+  /* header {
+   background-color: black;
+   box-sizing: border-box;
+   flex-wrap: wrap;
+   margin-bottom: 40px;
+ } */
+  nav {
+    background-color: black;
+  }
+ .media1 {
+ 
+   
+   background-color: white;
+   box-sizing: border-box;
+   flex-wrap: wrap;
+   margin-bottom: 40px;
+ 
+ }
+ 
+ footer {
+   
+   width: 100vw;
+   /* padding: 20px; */
+   border-top-color: #30948D;
+   border-top: 5px;
+   clear: both;
+   background: slategrey;
+   padding-bottom: 40px;
+   border-top-style: solid;
+   border-top-color: #30948D;
+ }
+ 
+ 
+ 
+ /* Additional Screen Sizes */
+ 
+ /* Width at 320px and below */
